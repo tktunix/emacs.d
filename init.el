@@ -5,3 +5,6 @@
 
 ; do not use scrollbar
 (scroll-bar-mode -1)
+
+; really kill message buffer after sending mail
+(setq message-kill-buffer-on-exit t)
