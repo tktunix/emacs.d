@@ -11,3 +11,7 @@
 
 ; really kill message buffer after sending mail
 (setq message-kill-buffer-on-exit t)
+
+; google chrome as the default browser
+(setq browse-url-generic-program (executable-find "google-chrome")
+      browse-url-browser-function 'browse-url-generic)
