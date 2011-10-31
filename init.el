@@ -9,6 +9,9 @@
 ; do not use scrollbar
 (if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
+; show column number
+(setq column-number-mode t)
+
 ; really kill message buffer after sending mail
 (setq message-kill-buffer-on-exit t)
 
